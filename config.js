@@ -1,0 +1,10 @@
+var config={};
+config.mail_to='dipjoyd4@gmail.com';
+config.mail_server_host="mail.gmail.in";
+config.mail_server_port=465;
+config.mail_user='';
+config.mail_password='';
+config.appPort = 5555;
+config.mail_server_ssl = false;
+var module = module || {};
+module.exports = config;

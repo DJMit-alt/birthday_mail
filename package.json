@@ -1,0 +1,20 @@
+{
+  "name": "mail_birthday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dipjay Datta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "mimelib": "^0.3.1",
+    "morgan": "^1.9.0",
+    "node-schedule": "^1.3.0"
+  }
+}
